@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const data = require('./data.json')
-const mongoose = require('mongoose')
+
 
 app.use(express.json())
 app.get('/client', (req, res) => {
